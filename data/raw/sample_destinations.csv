@@ -1,0 +1,13 @@
+city,country,region,latitude,longitude,cost_per_day_usd,avg_temp_c,beach,culture,nature,nightlife,food,adventure,relaxation,popularity,safety
+Lisbon,Portugal,Europe,38.7223,-9.1393,115,22,7,9,7,8,9,6,8,9,8
+Bangkok,Thailand,Asia,13.7563,100.5018,75,30,4,9,6,9,10,7,6,10,7
+Tokyo,Japan,Asia,35.6762,139.6503,170,20,3,10,6,8,10,5,5,10,9
+Barcelona,Spain,Europe,41.3874,2.1686,145,24,8,9,6,9,9,5,7,10,7
+Cape Town,South Africa,Africa,-33.9249,18.4241,100,21,9,8,10,7,8,10,8,8,6
+Reykjavik,Iceland,Europe,64.1466,-21.9426,220,8,2,7,10,5,6,10,7,7,9
+Marrakesh,Morocco,Africa,31.6295,-7.9811,80,28,2,10,6,6,9,7,7,8,6
+Vancouver,Canada,North America,49.2827,-123.1207,185,16,5,8,10,7,8,9,8,8,9
+Rio de Janeiro,Brazil,South America,-22.9068,-43.1729,95,27,10,8,8,10,8,8,8,9,5
+Athens,Greece,Europe,37.9838,23.7275,110,25,7,10,6,7,9,5,8,9,7
+Queenstown,New Zealand,Oceania,-45.0312,168.6626,160,12,3,6,10,6,7,10,7,8,9
+Prague,Czech Republic,Europe,50.0755,14.4378,95,18,1,10,5,8,8,4,7,9,8
