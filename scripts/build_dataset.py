@@ -1,7 +1,5 @@
-from pathlib import Path
 import sys
-
-import kagglehub
+from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
@@ -14,6 +12,14 @@ KAGGLE_DATASET = "furkanima/worldwide-travel-cities-ratings-and-climate"
 
 
 def download_kaggle_dataset() -> Path:
+    try:
+        import kagglehub
+    except ImportError as exc:
+        raise RuntimeError(
+            "kagglehub is required only when no raw dataset is available. "
+            "Install the project requirements or add the source CSV to data/raw."
+        ) from exc
+
     downloaded_path = Path(kagglehub.dataset_download(KAGGLE_DATASET))
     csv_files = list(downloaded_path.rglob("*.csv"))
     if not csv_files:
